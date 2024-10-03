@@ -12,22 +12,30 @@ The Health ID Recovery System is a decentralized application designed to securel
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Express
-- **Blockchain**: Ethereum (using Hardhat)
-- **Database**: In-memory storage (for demonstration purposes)
+- **Frontend**: 
+  - HTML
+  - CSS
+  - JavaScript
 
-## Getting Started
+- **Backend**: 
+  - Node.js
+  - Express
 
-### Prerequisites
+- **Blockchain**: 
+  - Ethereum (using Hardhat)
 
-- Node.js and npm installed on your machine.
-- Git installed on your machine.
-- A GitHub account for repository management.
+- **Database**: 
+  - In-memory storage (for demonstration purposes)
 
-### Installation
+## Dependencies
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/Health-ID-Recovery.git
-   cd Health-ID-Recovery
+### Backend Dependencies
+
+- **Express**: Web framework for Node.js
+- **CORS**: Middleware for enabling CORS
+- **Body-Parser**: Middleware for parsing incoming request bodies (if not using Express 4.16.0+)
+
+To install these dependencies, run the following command in your backend project directory:
+
+```bash
+npm install express cors body-parser
