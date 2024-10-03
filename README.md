@@ -35,14 +35,15 @@ The Health ID Recovery System is a decentralized application designed to securel
 - **CORS**: Middleware for enabling CORS
 - **Body-Parser**: Middleware for parsing incoming request bodies (if not using Express 4.16.0+)
 
-###To install these dependencies, run the following command in your backend project directory:
+### To install these dependencies, run the following command in your backend project directory:
 
 ```bash
 npm install express cors body-parser
+```
 
-**## Getting Started**
+## Getting Started
 
-**### Prerequisites**
+### Prerequisites
 
 Before you begin, ensure you have the following installed on your machine:
 
@@ -56,6 +57,7 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    git clone https://github.com/yourusername/Health-ID-Recovery.git
    cd Health-ID-Recovery
+   ```
 
 2. **Install backend dependencies**:
    ```bash
@@ -64,7 +66,6 @@ Before you begin, ensure you have the following installed on your machine:
 3. **Set up the blockchain environment using Hardhat**:
    ```bash
    npx hardhat compile  
-    ```bash
    npx hardhat run scripts/deploy.js --network localhost
 
 4. **Start the Hardhat local blockchain node**:
